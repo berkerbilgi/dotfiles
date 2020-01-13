@@ -48,7 +48,7 @@ These alias should be removed if use pyenv instead
 
 `git clone git@github.com:berkerbilgi/neovim-config.git`
 
-`pip install neovim`
+`pip install --user neovim`
 
 `gem install neovim`
 
