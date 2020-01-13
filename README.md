@@ -20,6 +20,22 @@ These alias should be removed if use pyenv instead
 
 `echo -e 'if command -v pyenv 1>/dev/null 2>&1; then\n  eval "$(pyenv init -)"\nfi' >> ~/.zshrc`
 
+## Ruby With Rbenv
+
+`brew install rbenv ruby-build`
+
+`echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
+
+`rbenv install 2.7.0`
+
+`rbenv global 2.7.0`
+
+`gem install bundler`
+
+## NODEJS
+
+`brew install node`
+
 ## NeoVim
 
 `brew install neovim`
@@ -31,6 +47,12 @@ These alias should be removed if use pyenv instead
 `cd nvim`
 
 `git clone git@github.com:berkerbilgi/neovim-config.git`
+
+`pip install neovim`
+
+`gem install neovim`
+
+`npm install -g neovim`
 
 `curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim`
     
