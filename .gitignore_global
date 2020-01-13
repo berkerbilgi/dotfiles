@@ -1,0 +1,33 @@
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes
+
+# Compiled Python files
+*.pyc
+.mypy_cache
+.cache
+.pytest_cache
+.ipynb_checkpoints
+
+# Compiled C++ files
+*.out
+
+# VIM swap files
+*.swp
+
+# Application specific files
+venv
+venv3
+node_modules
+.sass-cache
+
+# Jetbrains Settings
+.idea
