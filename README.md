@@ -24,7 +24,7 @@ These alias should be removed if use pyenv instead
 
 `brew install rbenv ruby-build`
 
-`echo 'eval "$(rbenv init -)"' >> ~/.bash_profile`
+`echo 'eval "$(rbenv init -)"' >> ~/.zshrc`
 
 `rbenv install 2.7.0`
 
