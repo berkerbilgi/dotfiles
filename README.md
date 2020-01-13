@@ -41,4 +41,4 @@ Open NeoVim and install plugins with `:PlugInstall`
 ## Git
 
 Gitignore file
-`git config --global core.excludesfile ~/.gitignore`
+`git config --global core.excludesfile ~/.gitignore_global`
