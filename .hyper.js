@@ -2,9 +2,9 @@ module.exports = {
   config: {
     updateChannel: 'stable',
 
-    fontSize: 12.3,
+    fontSize: 12.0,
 
-    fontFamily: 'Source Code Pro for Powerline',
+    fontFamily: 'Fira Code',
 
     fontWeight: 'bold',
 
@@ -81,7 +81,6 @@ module.exports = {
     "hyperlinks",
     "hyper-statusline",
     "hyper-tab-touchbar",
-    "hyperborder",
     "hyper-tab-icons"
   ],
 
